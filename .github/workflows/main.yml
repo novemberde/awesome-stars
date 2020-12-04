@@ -15,4 +15,4 @@ jobs:
           node-version: '12'
       - name: Update
         run: |
-          npx stargazed -u mooyoul -t ${{ secrets.GH_TOKEN }} -r awesome-stars -m "docs: stargazed update" -s
+          npx stargazed -u novemberde -t ${{ secrets.GITHUB_TOKEN }} -r my-stars -m "docs: stargazed update" -s
